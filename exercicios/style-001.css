@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: rgb(244, 239, 239);
+}
+
+.main-image {
+    position: relative;
+    background: url(images/diego-jimenez-A-NVHPka9Rk-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.container h1 span {
+    border: 5px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    padding: 10px 24px;
+    background: orange;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button:hover {
+    opacity: .6;
+
+}
+
+.pacotes h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.pacotes p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    text-align: center;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 15px 30px;
+}
+
+.car-3{
+    background: url(images/hakon-sataoen-qyfco1nfMtg-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 150px;   
+}
+
+.car-3:hover {
+    opacity: .6;
+}
+
+.item3 h2{
+}
+
+.button-vmore {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-more {
+    color: white;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: orange;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button-more:hover {
+    opacity: .6;
+}
+
+.section-parallax {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.parallax {
+    background-image: url(images/murilo-gomes-_1vkh7UzzIg-unsplash.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
